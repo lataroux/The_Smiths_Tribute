@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .center {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+
+#subheading {
+  padding-top: 30px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  #gallery img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  #tribute-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+}
